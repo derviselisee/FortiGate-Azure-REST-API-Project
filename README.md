@@ -48,3 +48,9 @@ After that, I was able to successfully make a GET request to the policy endpoint
 This project helped me understand how a FortiGate exposes its configuration through REST API endpoints.
 I learned how to authenticate with a token, how to use Postman to test API requests, and how to read JSON responses that represent real firewall objects. 
 This is an important skill for network automation, cloud architecture, and DevOps workflows.
+
+## Taking API Automation Further with Python
+
+The next step in my API journey will be using Python to interact with the FortiGate instead of relying only on Postman. 
+Python will allow me to automate requests, apply configuration changes, and build scripts that can read or modify settings on the firewall in a repeatable way. 
+Because Python supports powerful libraries for HTTP requests, I will be able to connect to the FortiGate API, send commands, process JSON data, and eventually create real automation tools that manage the device just like a network engineer would through the GUI.
