@@ -15,8 +15,7 @@ In our case, we used a REST API, which is a very common style of API that relies
 A REST API uses simple URLs and usually exchanges data in JSON, which makes it easy to read and easy to automate.
 Because REST APIs follow predictable rules, they allow tools like Postman or Python scripts to interact with devices such as a FortiGate firewall in a very efficient way.
 
-![APIs](https://github.com/user-attachments/assets/ca12ca1b-e3aa-46b8-9426-4ceec6d59672)
-
+<img width="1600" height="900" alt="Figure_Real_world_Analogy_of_an_API_2f5cee9677" src="https://github.com/user-attachments/assets/734c53e8-3218-435a-85cf-9a4378569f22" />
 
 ## 1-Deploying the FortiGate in Azure
 
