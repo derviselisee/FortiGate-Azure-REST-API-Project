@@ -4,6 +4,20 @@ This project shows how I deployed a FortiGate firewall in Microsoft Azure and us
 The goal was to understand how real network devices expose programmable interfaces and how automation tools can interact with them. 
 This project demonstrates deployment, API authentication, and API calls to view live firewall policies.
 
+## Understanding APIs and REST APIs
+
+First of all, an API is a way for two systems to communicate with each other through requests and responses. 
+It allows one application to ask another application for information or to perform an action without needing to know how the internal code works. 
+Because of that, APIs create a clean bridge between programs and make automation possible. T
+here are different kinds of APIs, and each one follows its own rules for how data is exchanged and how requests must be sent.
+
+In our case, we used a REST API, which is a very common style of API that relies on standard web methods such as GET, POST, PUT, and DELETE.
+A REST API uses simple URLs and usually exchanges data in JSON, which makes it easy to read and easy to automate.
+Because REST APIs follow predictable rules, they allow tools like Postman or Python scripts to interact with devices such as a FortiGate firewall in a very efficient way.
+
+![APIs](https://github.com/user-attachments/assets/ca12ca1b-e3aa-46b8-9426-4ceec6d59672)
+
+
 ## 1-Deploying the FortiGate in Azure
 
 I started by deploying a licensed FortiGate VM in Microsoft Azure. After the deployment finished, I accessed the firewall through its public IP address.
