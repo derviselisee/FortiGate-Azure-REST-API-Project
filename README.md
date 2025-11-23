@@ -22,10 +22,14 @@ Because REST APIs follow predictable rules, they allow tools like Postman or Pyt
 I started by deploying a licensed FortiGate VM in Microsoft Azure. After the deployment finished, I accessed the firewall through its public IP address.
 Azure assigned me a public IP and placed the firewall inside a dedicated virtual network. The screenshot below shows the VM running in my Azure portal.
 
+<img width="2878" height="1560" alt="FORTIGATE IN AZURE" src="https://github.com/user-attachments/assets/b0d42895-4678-4066-a768-5d18f7d46812" />
+
 ## 2-Creating a REST API Administrator
 
 Inside the FortiGate, I created a REST API administrator account. This type of administrator does not log in through the graphical interface. 
 Instead, it generates an API token that can be used by external automation tools.
+
+<img width="2876" height="1468" alt="I created a REST API Admin on my FortiGate" src="https://github.com/user-attachments/assets/7cf4a4c3-00d1-439e-9761-936a75ed251c" />
 
 A token works like a digital key. It identifies you to the device and proves that you are authorized to make API requests. 
 Because of that, you do not need to send your username and password every time you call the API. It is safer and much more convenient for automation.
@@ -35,12 +39,16 @@ Because of that, you do not need to send your username and password every time y
 I used Postman to send API requests to the firewall. Postman is a tool that allows you to build, test, and repeat HTTP requests easily.
 It lets you set headers, add tokens, choose methods such as GET or POST, and see the response from the server.
 Because of that, Postman is perfect for learning how APIs work before writing automation code.
+<img width="2880" height="1800" alt="I am using POSTMAN to call my FortiGate API" src="https://github.com/user-attachments/assets/3c1e23f2-f803-4c0f-bf40-74eb5f93a3ba" />
 
 ## 4-Calling the FortiGate API through the Public IP
 
 I took the public IP address of the firewall and added it to Postman as the target API endpoint. 
 Then I included my token inside the Authorization header. 
 After that, I was able to successfully make a GET request to the policy endpoint.
+<img width="2880" height="1800" alt="I called an API to see my FGT firewall policy " src="https://github.com/user-attachments/assets/579b2242-edc6-4ab2-a229-43ee2bb5a9e7" />
+<img width="2880" height="1464" alt="Firewall Policy in FGT GUI" src="https://github.com/user-attachments/assets/7d813f54-067c-4542-96c1-ecd334473849" />
+
 
 ## Summary
 
