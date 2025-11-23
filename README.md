@@ -43,7 +43,7 @@ I took the public IP address of the firewall and added it to Postman as the targ
 Then I included my token inside the Authorization header. 
 After that, I was able to successfully make a GET request to the policy endpoint.
 
-##Summary
+## Summary
 
 This project helped me understand how a FortiGate exposes its configuration through REST API endpoints.
 I learned how to authenticate with a token, how to use Postman to test API requests, and how to read JSON responses that represent real firewall objects. 
