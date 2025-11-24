@@ -39,13 +39,15 @@ Because of that, you do not need to send your username and password every time y
 I used Postman to send API requests to the firewall. Postman is a tool that allows you to build, test, and repeat HTTP requests easily.
 It lets you set headers, add tokens, choose methods such as GET or POST, and see the response from the server.
 Because of that, Postman is perfect for learning how APIs work before writing automation code.
+
 <img width="2880" height="1800" alt="I am using POSTMAN to call my FortiGate API" src="https://github.com/user-attachments/assets/3c1e23f2-f803-4c0f-bf40-74eb5f93a3ba" />
 
 ## 4-Calling the FortiGate API through the Public IP
 
-I took the public IP address of the firewall and added it to Postman as the target API endpoint. 
-Then I included my token inside the Authorization header. 
-After that, I was able to successfully make a GET request to the policy endpoint.
+To test the API remotely, I used the firewall’s public IP address as the target endpoint in Postman. 
+I placed my API token inside the Authorization header and set the request type to GET.
+Once everything was in place, Postman successfully reached the firewall and returned the firewall policy data, which confirmed that the API token, endpoint, and connectivity were all working correctly.
+
 <img width="2880" height="1800" alt="I called an API to see my FGT firewall policy " src="https://github.com/user-attachments/assets/579b2242-edc6-4ab2-a229-43ee2bb5a9e7" />
 <img width="2880" height="1464" alt="Firewall Policy in FGT GUI" src="https://github.com/user-attachments/assets/7d813f54-067c-4542-96c1-ecd334473849" />
 
