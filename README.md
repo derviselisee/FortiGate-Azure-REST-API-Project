@@ -1,4 +1,4 @@
-# FORTIGATE AZURE REST API PROJECT
+## FORTIGATE AZURE REST API PROJECT
 
 This project shows how I deployed a FortiGate firewall in Microsoft Azure and used its REST API to retrieve configuration data through Postman. 
 The goal was to understand how real network devices expose programmable interfaces and how automation tools can interact with them. 
