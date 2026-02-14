@@ -7,7 +7,7 @@ This project demonstrates deployment, API authentication, and API calls to view 
 ## Understanding APIs and REST APIs
 
 First of all, an API is a way for two systems to communicate with each other through requests and responses. 
-It allows one application to ask another application for information or to perform an action without needing to know how the internal code works. 
+It allows one application to ask another application for information or to perform an action without needing to know how the internal code works.
 Because of that, APIs create a clean bridge between programs and make automation possible.
 There are different kinds of APIs, and each one follows its own rules for how data is exchanged and how requests must be sent.
 
