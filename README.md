@@ -8,8 +8,8 @@ This project demonstrates deployment, API authentication, and API calls to view 
 
 First of all, an API is a way for two systems to communicate with each other through requests and responses. 
 It allows one application to ask another application for information or to perform an action without needing to know how the internal code works. 
-Because of that, APIs create a clean bridge between programs and make automation possible. T
-here are different kinds of APIs, and each one follows its own rules for how data is exchanged and how requests must be sent.
+Because of that, APIs create a clean bridge between programs and make automation possible.
+There are different kinds of APIs, and each one follows its own rules for how data is exchanged and how requests must be sent.
 
 In our case, we used a REST API, which is a very common style of API that relies on standard web methods such as GET, POST, PUT, and DELETE.
 A REST API uses simple URLs and usually exchanges data in JSON, which makes it easy to read and easy to automate.
